@@ -58,8 +58,7 @@ Please make a todo list that
 > [!CAUTION]
 > Please host the test on a hosting service and send us the link.
 
-See example in the link below
-[Video Link](https://drive.google.com/file/d/170AYx0lOXs4DLyZiPGGIgmQpFhwTKNih/view?usp=sharing)
+https://github.com/user-attachments/assets/8815c462-71a4-4346-b894-0210b34c051c
 
 Please do your best to show your best solution
 we are looking for
