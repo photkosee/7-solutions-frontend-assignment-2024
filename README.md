@@ -60,8 +60,9 @@ Please make a todo list that
 > [!CAUTION]
 > Please host the test on a hosting service and send us the link.
 
-See example in the link below
-[Video Link](https://drive.google.com/file/d/170AYx0lOXs4DLyZiPGGIgmQpFhwTKNih/view?usp=sharing)
+
+https://github.com/user-attachments/assets/22655613-a8fd-4fc7-8959-319d463a880c
+
 
 Please do your best to show your best solution
 we are looking for
