@@ -70,6 +70,8 @@ we are looking for
 
 Bonus: if you have multiple solutions we could discuss those theories in our interview (no need to submit multiple versions, just send us the best one you think.)
 
+#
+
 ### Normal Solution
 
 The usual approach would be to have a separate state for each column type and update the state whenever a user selects a new item. This would add the item to the correct type column and remove it from the main list. A 5-second timeout would then be set for the item to automatically move it back to the main list. If the item is deselected before the timeout, it should be moved back immediately by updating the state and clearing the assigned timeout.
@@ -83,6 +85,12 @@ However, with all column types sharing the same state, there’s a new considera
 I wouldn’t say this is the best solution since the requirements don’t explicitly mention this, and overengineering isn’t ideal. But as a self-practice exercise, I enjoy finding new approaches to tackle problems.
 
 One potential issue is the lack of a unique id field. Currently, the item's name is used as an ID, which isn’t ideal.
+
+### Built with
+
+- React
+- Tailwind CSS
+- Redux Toolkit
 
 ## 2. Create data from API *(OPTIONAL)*
 
@@ -113,4 +121,12 @@ API from <https://dummyjson.com/users>
         }
     }, 
     ...
+```
+
+```
+npx proto-loader-gen-types --grpcLib=@grpc/grpc-js --outDir=proto/ ./proto/departments.proto
+
+npm run start
+
+npm run start:client -- --all
 ```

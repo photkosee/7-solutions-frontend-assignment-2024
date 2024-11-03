@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package departments;
+
+service DepartmentService {
+  rpc getAllDepartmentSummary (Empty) returns (AllDepartmentSummaryResponse);
+  rpc getDepartmentSummary (DepartmentSummaryRequest) returns (DepartmentSummaryResponse);
+}
+
+message Empty {}
+
+message AllDepartmentSummaryResponse {
+  map<string, DepartmentSummary> departments = 1;
+}
+
+message DepartmentSummaryRequest {
+  string department = 1;
+}
+
+message DepartmentSummaryResponse {
+  DepartmentSummary department = 1;
+}
+
+message DepartmentSummary {
+  int32 male = 1;
+  int32 female = 2;
+  string ageRange = 3;
+  map<string, int32> hair = 4;
+  map<string, string> addressUser = 5;
+}
