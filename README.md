@@ -87,11 +87,12 @@ I wouldn’t say this is the best solution since the requirements don’t explic
 
 One potential issue is the lack of a unique id field. Currently, the item's name is used as an ID, which isn’t ideal.
 
-### Built with
-
-- React
-- Tailwind CSS
-- Redux Toolkit
+### How to run
+```
+# ./1-auto-delete-todo-list
+npm i
+npm run dev
+```
 
 ## 2. Create data from API *(OPTIONAL)*
 
@@ -146,10 +147,14 @@ I optimized performance by caching on the server, which improved response times 
 
 ### How to run
 ```
-# 2-create-data-from-api/server
+# ./2-create-data-from-api/server
+npm i
+# Start gRPC server
 npm start
+# Start gRPC client (Express server)
 npm run start:client
 
-# 2-create-data-from-api/client
+# ./2-create-data-from-api/client
+npm i
 npm run dev
 ```
